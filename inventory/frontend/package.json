@@ -1,0 +1,63 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.2.4",
+    "axios": "0.18.0",
+    "bootstrap": "^5.1.1",
+    "bootstrap-vue": "2.21.2",
+    "chart.js": "2.9.4",
+    "font-awesome": "*",
+    "highlightjs": "9.10.0",
+    "liquor-tree": "0.2.32",
+    "moment": "^2.29.1",
+    "vue": "^2.6.11",
+    "vue-chart-3": "^0.5.8",
+    "vue-chartjs": "^3.5.1",
+    "vue-gravatar": "1.2.1",
+    "vue-mq": "0.2.1",
+    "vue-router": "3.0.1",
+    "vue-toasted": "1.1.24",
+    "vue2-editor": "2.6.6",
+    "vuex": "3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
