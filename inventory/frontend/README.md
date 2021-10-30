@@ -1,4 +1,4 @@
-# my-project
+# inventory/frontend
 
 ## Project setup
 ```
